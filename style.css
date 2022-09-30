@@ -1,0 +1,224 @@
+/* css rest */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* css variables */
+:root{
+    --navbar-height: 60px;
+}
+
+/* navigation bar */
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+}
+
+/* navigation bar logo and image */
+#logo{
+    margin: 10px 35px;
+    
+}
+
+#logo img{
+    width: 50px;
+    height: auto;
+    margin: 3px 3px;
+}
+
+/* navigation bar list styling */
+#navbar{
+    position: relative ;
+}
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo 2', cursive;
+    
+
+}
+
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    
+
+
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+#navbar ul li a:hover{
+    color: black;
+   background-color: white;
+
+}
+
+/* home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    font-family: 'Baloo 2', cursive;
+}
+#home::before{
+    content: "";
+    background: url('bg1.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 84.2%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.93;
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+}
+ 
+/* utility class */
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.center{
+    text-align: center;
+}
+
+/* service section */
+#service_box .box1{
+    border: 2px solid red;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+#service_box{
+    display: flex;
+}
+#service_box .box1 img{
+    margin: auto;
+    width: 10rem;
+    height: auto;
+    display: block;
+}
+.services{
+    padding-top: 3rem;
+    font-family: 'Baloo 2', cursive;
+}
+.service_heading{
+    font-size: 2rem;
+    
+}
+
+/* enquiry section */
+
+#enquiry_section{
+    position: relative;
+}
+#enquiry_section{
+    content: "";
+    background: url("contactus.jpeg") no-repeat center center/cover; 
+    top: 0px;
+    left: 0px;
+    position: relative;
+}
+.enquiry_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.formgroup{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    font-family: 'Baloo 2', cursive;
+}
+.enquiry_box input,
+.enquiry_box textarea{
+    width: 100%;
+    margin: 0.2rem;
+    padding: 0.5rem;
+    padding-left: 10pxpx;
+    font-family: 'Baloo 2', cursive;
+    font-size: 15px;
+}
+.enquiry_heading{
+    font-family: 'Baloo 2', cursive;
+}
+.formgroup label{
+    font-family: 'Baloo 2', cursive;
+}
+input #name{
+    font-family: 'Baloo 2', cursive;
+    font-size: 30px;
+}
+
+/* clients list */
+.client_images img{
+    width: 10rem;
+    height: auto;
+    padding: 2rem;
+    /* margin: 3rem; */
+    
+}
+.clients_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#clients_section{
+    position: relative;
+    height: 50%;
+}
+.clients_heading{
+    font-family: 'Baloo 2', cursive;
+    font-size: 2rem;
+}
+
+/* footer */
+#footer{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}

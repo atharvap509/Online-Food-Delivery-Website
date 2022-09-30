@@ -1,0 +1,80 @@
+/* navigation bar */
+#navbar{
+    flex-direction: column;
+    height: 7rem;
+}
+
+#navbar ul li a{
+    padding: 3px 7px;
+    border-radius: 20px;
+    font-size: 1rem;
+    /* padding-bottom: px; */
+}
+#logo{
+    margin: 2px 15px;
+    
+}
+/* home section */
+#home::before{
+    height: 90%;
+}
+#home .h-primary{
+    font-size: 1.8rem ;
+}
+#home p{
+    font-size: 1rem ;
+}
+#home{
+    padding: 0px 10px;
+    height: 21rem;
+}
+/* service section */
+#service_box{
+    flex-direction: column;
+}
+.service_heading{
+    font-size: 1.5rem;
+}
+h2.center{
+    font-size: 1.5rem;
+}
+.services{
+    padding-top: 6.5rem;
+    font-family: 'Baloo 2', cursive;
+}
+
+/* clients section */
+
+
+.client_images img{
+    width: 5rem;
+    height: auto;
+}
+.clients_list{
+    flex-wrap: wrap;
+}
+.clients_heading{
+    font-size: 1.5rem;
+}
+/* .clients_list .client_images{
+    overflow: hidden;
+} */
+/* enquiry section */
+.enquiry_heading{
+     font-size: 1.5rem;
+    
+}
+
+
+.enquiry_box{
+    width: auto;
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+}
+
+/* button */
+.btn{
+    font-size: 1rem;
+    padding: 2px 2px;
+}
